@@ -1,0 +1,65 @@
+/* NavBar Content */
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    width: 95vw;
+    border: 3px dotted rgb(5, 8, 212);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.highscoreLink {
+    text-decoration: none;
+    color: black;
+}
+.highscoreLink:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(34, 124, 202);
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#quizBody {
+    text-align: center;
+    justify-content: center;
+    padding: 12vh;
+    margin-top: 20px;
+    padding: auto;
+}
+
+button {
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    margin: 15px 15px 15px 15px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: rgb(160, 0, 0);
+}
+
+h1 {
+    font-weight: 100;
+}

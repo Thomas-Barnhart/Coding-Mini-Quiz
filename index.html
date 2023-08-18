@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coding Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <header>
+        <div class="header">
+            <div>
+                <button class="button" id="score-check">View Highscores</button>
+            </div>
+            <div>
+                <p id="timer"> Time left: 60 s</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <section class="intro-page" id="intro-page">
+                <div id="introduction">
+                    <h1>
+                        Welcome to Coding Quiz Challenge
+                    </h1>
+                    <p id="instruction">
+                        Try to answer the following code-related questions within the time limit. Keep in mid that incorrect answers will penalize your score/time by ten seconds!
+                    </p>
+                    <button class="button" id="start-button">Start Quiz</button>
+                </div>
+            </section>
+            <section class="question-page" id="question-page">
+                <div>
+                    <div>
+                        <h2 id = "ask-question">Ask the question</h2>
+                        <ul>
+                            <li><button class ="choices button" id="answer-btn1" value="a">Answer1</button></li>
+                            <li><button class ="choices button" id="answer-btn2" value="b">Answer2</button></li>
+                            <li><button class ="choices button" id="answer-btn3" value="c">Answer3</button></li>
+                            <li><button class ="choices button" id="answer-btn4" value="d">Answer4</button></li>
+                        </ul>
+                    <div>
+                    <div id="check-line">
+                        <p>Correct or Wrong</p>
+                </div>
+            </section>
+            <section class="submit-page" id="submit-page">
+                <div>
+                    <h2 id="finish">All Done!</h2>
+                    <p id = "final-score">Your final score is: </p>
+                    <p>Enter initials
+                        <input id="initial">
+                        <button class="button" id="submit-btn">Submit</button>
+                    </p>
+                </div>
+            </section>
+            <section class="highscore-page" id ="highscore-page">
+                <div>
+                    <h2>High Scores</h2>
+                    <div id="score-record"><p>Your record</p></div>
+                    <div>
+                        <button class="button" id="back-btn">Go back</button>
+                        <button class="button" id="clear-btn">Clear Highscores</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Designed by Thomas Barnhart</p>
+    </footer>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
