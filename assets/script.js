@@ -96,14 +96,14 @@
                     gameOver();
                     } 
         }, 1000);
-    }
+    };
     function startQuiz () {
             introPage.style.display = "none";
             questionPage.style.display = "block";
             questionNumber = 0
             countdown();
             showQuestion(questionNumber);
-    }
+    };
     function showQuestion (n) {
             askQuestion.textContent = questionSource[n].question;
             answerBtn1.textContent = questionSource[n].choices[0];
@@ -111,7 +111,7 @@
             answerBtn3.textContent = questionSource[n].choices[2];
             answerBtn4.textContent = questionSource[n].choices[3];
             questionNumber = n;
-        }
+        };
     function checkAnswer(event) {
         event.preventDefault();
         checkLine.style.display = "block";
@@ -130,7 +130,7 @@
         } else {
         gameOver();}
         questionCount++;
-    }
+    };
     function gameOver() {
             questionPage.style.display = "none";
             scoreBoard.style.display = "block";
@@ -183,7 +183,7 @@
         }
         addItem(scoreItem);
         renderScore();
-    }
+    };
     startBtn.addEventListener("click", startQuiz);
     reactButtons.forEach(function(click){
         click.addEventListener("click", checkAnswer);
