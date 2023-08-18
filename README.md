@@ -20,7 +20,9 @@ WHEN the game is over
 THEN I can save my initials and score
 
 # Mock-up Image of the Site
-
+![Screenshot of the quiz](image/Screenshot-of-quiz-start.png)
+![Screenshot of the bottom](image/Screenshot-of-quiz-bottom.png)
+![Screenshot of the quiz in progress](image/Screenshot-of-quiz-running.png)
 
 # Link to Live Site
 https://thomas-barnhart.github.io/Coding-Mini-Quiz/
